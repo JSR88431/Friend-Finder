@@ -31,6 +31,7 @@ module.exports = function (app) {
         if(totalDifference <= newBestPal.dummyScore){
           newBestPal.name = friends[x].name;
           newBestPal.photo = friends[x].photo;
+          newBestPal.dummyScore = totalDifference;
         }
         
       }
