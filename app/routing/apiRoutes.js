@@ -27,7 +27,12 @@ module.exports = function (app) {
     for(var x = 0; x < friends.length; x++){
           totalDifference = 0;
       for(var y = 0; y < friends[x].scores[y]; y++){
-        totalDifference += Math.abs(parseInt(currentUser.scores[y]) - parseInt(friends[x].scores[y]));
+
+        var newUser = parseInt(currentUser.scores[y]);
+        var matchUser = parseInt(friends[x].scores[y]);
+
+        totalDifference += Math.abs(newUser - matchUser);
+        
         if(totalDifference <= newBestPal.dummyScore){
           newBestPal.name = friends[x].name;
           newBestPal.photo = friends[x].photo;
