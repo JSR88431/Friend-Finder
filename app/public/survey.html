@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Friend Finder</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="jumbotron">
+            <h4>ABOUT YOU</h4>
+            <form>
+                <div class="form-group">
+                    <label for="inputName">Full Name</label>
+                    <input type="name" class="form-control" id="inputName" placeholder="FULL NAME REQUIRED">
+                </div>
+                <div class="form-group">
+                    <label for="inputLink">Link to Photo</label>
+                    <input type="name" class="form-control" id="inputLink" placeholder="LINK REQUIRED">
+                </div>
+            </form>
+            <hr>
+            <div class="card w-75 mb-5">
+                <div class="card-body">
+                    <h5 class="card-title">Question 1</h5>
+                    <p class="card-text">You Do Not Like Public Speaking.</p>
+                    <div class="input-group mb-3">
+                        <select class="custom-select" id="inputOne">
+                            <option selected>Choose...</option>
+                            <option value="1">1 (strongly disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (strongly agree)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card w-75 mb-5">
+                <div class="card-body">
+                    <h5 class="card-title">Question 2</h5>
+                    <p class="card-text">You eat a lot of pizza.</p>
+                    <div class="input-group mb-3">
+                        <select class="custom-select" id="inputTwo">
+                            <option selected>Choose...</option>
+                            <option value="1">1 (strongly disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (strongly agree)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card w-75 mb-5">
+                <div class="card-body">
+                    <h5 class="card-title">Question 3</h5>
+                    <p class="card-text">You like keto diet.</p>
+                    <div class="input-group mb-3">
+                        <select class="custom-select" id="inputThree">
+                            <option selected>Choose...</option>
+                            <option value="1">1 (strongly disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (strongly agree)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card w-75 mb-5">
+                <div class="card-body">
+                    <h5 class="card-title">Question 4</h5>
+                    <p class="card-text">You think everyone is nice.</p>
+                    <div class="input-group mb-3">
+                        <select class="custom-select" id="inputFour">
+                            <option selected>Choose...</option>
+                            <option value="1">1 (strongly disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (strongly agree)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card w-75 mb-5">
+                <div class="card-body">
+                    <h5 class="card-title">Question 5</h5>
+                    <p class="card-text">You like the beach more than the city.</p>
+                    <div class="input-group mb-3">
+                        <select class="custom-select" id="inputFive">
+                            <option selected>Choose...</option>
+                            <option value="1">1 (strongly disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (strongly agree)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card w-75 mb-5">
+                <div class="card-body">
+                    <h5 class="card-title">Question 6</h5>
+                    <p class="card-text">You like kids but do not want one for yourself.</p>
+                    <div class="input-group mb-3">
+                        <select class="custom-select" id="inputSix">
+                            <option selected>Choose...</option>
+                            <option value="1">1 (strongly disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (strongly agree)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card w-75 mb-5">
+                <div class="card-body">
+                    <h5 class="card-title">Question 7</h5>
+                    <p class="card-text">You hate going out alone.</p>
+                    <div class="input-group mb-3">
+                        <select class="custom-select" id="inputSeven">
+                            <option selected>Choose...</option>
+                            <option value="1">1 (strongly disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (strongly agree)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card w-75 mb-5">
+                <div class="card-body">
+                    <h5 class="card-title">Question 8</h5>
+                    <p class="card-text">You pretend to be good at something.</p>
+                    <div class="input-group mb-3">
+                        <select class="custom-select" id="inputEight">
+                            <option selected>Choose...</option>
+                            <option value="1">1 (strongly disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (strongly agree)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card w-75 mb-5">
+                <div class="card-body">
+                    <h5 class="card-title">Question 9</h5>
+                    <p class="card-text">You like to joke around with your friends.</p>
+                    <div class="input-group mb-3">
+                        <select class="custom-select" id="inputNine">
+                            <option selected>Choose...</option>
+                            <option value="1">1 (strongly disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (strongly agree)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card w-75 mb-5">
+                <div class="card-body">
+                    <h5 class="card-title">Question 10</h5>
+                    <p class="card-text">You believe everything has a reason.</p>
+                    <div class="input-group mb-3">
+                        <select class="custom-select" id="inputTen">
+                            <option selected>Choose...</option>
+                            <option value="1">1 (strongly disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (strongly agree)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <button type="button" class="btn btn-primary btn-lg" id="submit">Submit!</button>
+            <p><a href="/api/survey">Friends List</a></p>
+        </div>
+    </div>
+    <!-- MODAL -->
+    <div class="modal" tabindex="-1" role="dialog" id="trigger">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Hi! I'm your New Bestfriend!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h3 id="friendName"></h3>
+                    <img id="friendPhoto">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+
+
+    <script type="text/javascript">
+
+        $("#submit").on("click", function (event) {
+            event.preventDefault();
+
+            var newBestFriend = {
+                name: $("#inputName").val(),
+                photo: $("#inputLink").val(),
+                scores: [$("#inputOne").val(),
+                $("#inputTwo").val(),
+                $("#inputThree").val(),
+                $("#inputFour").val(),
+                $("#inputFive").val(),
+                $("#inputSix").val(),
+                $("#inputSeven").val(),
+                $("#inputEight").val(),
+                $("#inputNine").val(),
+                $("#inputTen").val()
+                ]
+            };
+
+            console.log(newBestFriend);
+
+
+
+            $.post("/api/survey", newBestFriend,
+                function (data) {
+                    $("#friendName").text(data.name);
+                    $("#friendPhoto").attr("src",data.photo);
+                    $("#friendPhoto").attr("style","max-height:200px");
+                    $("#trigger").modal("toggle");
+
+
+                    
+
+                    $("#inputName").val("");
+                    $("#inputLink").val("");
+                    $("#inputOne").val("");
+                    $("#inputTwo").val("");
+                    $("#inputThree").val("");
+                    $("#inputFour").val("");
+                    $("#inputFive").val("");
+                    $("#inputSix").val("");
+                    $("#inputSeven").val("");
+                    $("#inputEight").val("");
+                    $("#inputNine").val("");
+                    $("#inputTen").val("");
+                });
+
+        });
+
+    </script>
+
+</body>
+
+</html>
